@@ -17,7 +17,7 @@ export default function Result() {
       return;
     }
 
-    fetch(`http://localhost:8000/analyze?barcode=${barcode}`)
+    fetch(`http://localhost:9999/analyze?barcode=${barcode}`)
       .then((res) => {
         if (!res.ok) throw new Error('API error');
         return res.json();

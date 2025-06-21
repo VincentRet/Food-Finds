@@ -10,7 +10,6 @@ export default function ManualEntry() {
     e.preventDefault();
     if (input.trim()) {
       setIsLoading(true);
-      // Small delay for better UX
       setTimeout(() => {
         navigate(`/result?barcode=${encodeURIComponent(input.trim())}`);
       }, 300);
