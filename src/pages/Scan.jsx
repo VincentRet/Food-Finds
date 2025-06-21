@@ -55,7 +55,7 @@ export default function Scan() {
                 if (result) handleScan(result?.text);
                 if (err) handleError(err);
               }}
-              style={{ width: '100%', height: '200px' }}
+              style={{ width: '100%', height: '150px' }}
             />
           </div>
         ) : (
