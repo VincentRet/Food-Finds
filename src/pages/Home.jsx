@@ -16,7 +16,6 @@ export default function Home() {
           <button 
             onClick={() => navigate('/scan')} 
             className="btn btn-primary btn-lg"
-            style={{width: '250px'}}
           >
             📱 Scan Barcode
           </button>
