@@ -8,8 +8,8 @@ export default function Home() {
       <div className="card text-center fade-in">
         <h1 className="mb-lg">What's really in your food?</h1>
         <p className="mb-xl" style={{ fontSize: '1.125rem', maxWidth: '500px', margin: '0 auto var(--spacing-xl)' }}>
-          Discover the hidden ingredients in your favorite products. 
-          Simply scan or enter a barcode to get detailed ingredient analysis.
+          Discover questionable ingredients and their potential health risks.
+          Simply scan or enter a barcode to get started.
         </p>
         
         <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--spacing-md)', alignItems: 'center' }}>
