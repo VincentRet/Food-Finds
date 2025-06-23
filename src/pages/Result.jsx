@@ -95,23 +95,6 @@ export default function Result() {
                                 </ul>
                             </div>
                         )}
-
-                        {/* Raw JSON Section */}
-                        <div style={{
-                            background: 'var(--color-gray-50)',
-                            border: '1px solid var(--color-gray-200)',
-                            borderRadius: 'var(--radius-md)',
-                            padding: 'var(--spacing-lg)',
-                            marginBottom: 'var(--spacing-xl)',
-                            fontSize: '0.9rem',
-                            fontFamily: 'Monaco, Consolas, monospace',
-                            overflow: 'auto',
-                            maxHeight: '400px'
-                        }}>
-                            <pre style={{ margin: 0, whiteSpace: 'pre-wrap' }}>
-                                {JSON.stringify(result, null, 2)}
-                            </pre>
-                        </div>
                     </div>
                 )}
 
